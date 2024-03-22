@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  header {
+    color: #fff;
+    text-align: center;
+  }
+
+  .logo {
+    width: 200px;
+  }
+  
+  .form-section {
+    background-color: #E7816B;
+    padding: 70px;
+    margin: 20px auto 100px auto ;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./bg-pattern-small-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:bottom left;
+  }
+
+  .text {
+    width: 45%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  
+  
+  .form-group {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    background-color: #E7816B;
+    color:  #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #fff;
+  } 
+
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-bottom: 2px solid #fff;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    height: 50px;
+    width: 150px;
+    background-color: #F1F3F5;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FFAD9B;
+  }
+  
+  footer {
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form-section {
+      margin: 20px;
+    }
+  }
+  
